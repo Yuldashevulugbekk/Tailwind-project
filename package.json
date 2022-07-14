@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "postcss ./src/style.css -o ./public/output.css --watch"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "live": "^0.1.25-beta.0",
+    "postcss-cli": "^10.0.0",
+    "server": "^1.0.37",
+    "tailwindcss": "^3.1.5"
+  }
+}
